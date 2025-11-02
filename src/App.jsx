@@ -5,7 +5,7 @@ import AboutMe from './AboutMe.jsx';
 import Projects from './Projects.jsx';
 import Contact from './Contact.jsx';
 import './App.css'
-import cafeMusic from './assets/cafemusic.mp3';
+import cafeMusic from '/cafemusic.mp3';
 
 //const defaultModelPos = [0.7, 1.6, 3];
 const defaultModelPos = [0, 0, 0];
@@ -40,7 +40,7 @@ function WelcomeOverlay({ show }) {
 }
 
 function CoffeeShopModel(props) {
-  const { scene } = useGLTF('/src/assets/mycafe2.glb')
+  const { scene } = useGLTF('/mycafe2.glb')
   const [aboutMeshHover, setAboutMeshHover] = useState(false);
   const [aboutButtonHover, setAboutButtonHover] = useState(false);
   const [projectsMeshHover, setProjectsMeshHover] = useState(false);

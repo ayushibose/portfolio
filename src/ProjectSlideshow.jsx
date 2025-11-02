@@ -13,9 +13,9 @@ const slides = [
   {
     title: 'Customer Sentiment Visualiser Chrome Extension',
     description: [
-      'Built and deployed a Chrome extension with a FastAPI backend integrating a pre-trained Vader for real-time sentiment analysis.',
-      'Highlighted Amazon reviews with sentiment badges and dashboards summarizing distribution and confidence across 100+ reviews per page.',
-      'Delivered an end-to-end system transforming raw customer feedback into actionable insights on sentiment distribution, confidence, and temporal trends.',
+      'Built and deployed an end-to-end customer sentiment analytics system on Render, combining a Chrome extension, FastAPI backend, and Streamlit dashboard for real-time Amazon review analysis.',
+      'Delivered actionable customer intelligence by transforming unstructured review data into visual analytics for business and data science insights, blending NLP, API design, and data visualization.',
+      'Implemented VADER sentiment analysis for interpretable, high-speed text classification, enabling live insights across 100+ reviews per page.',
       '⚙️ Tech Stack: JavaScript (MV3), Chrome Storage API, Chart.js, FastAPI.',
     ],
   },
